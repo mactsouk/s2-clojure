@@ -19,7 +19,7 @@ blocks:
       - name: Hello World 1.9.0
         commands:
           - checkout
-          - cd hw19
+          - cd one
           - lein run
 
   - name: Compile with Clojure 1.10.0
@@ -28,6 +28,6 @@ blocks:
       - name: Hello World 1.10.0
         commands:
           - checkout
-          - cd hw110
+          - cd two 
           - lein run
 
